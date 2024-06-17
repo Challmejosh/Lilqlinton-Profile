@@ -1,0 +1,202 @@
+.background{
+    position: fixed;
+    bottom: 10rem;
+    right: 1%;
+    background: blue;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    transform: rotate(-90deg);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+.changeTheme{
+    color: #fff;
+}
+.changeTheme.active{
+    color: #333;
+}
+.mainContent{
+    background: #555;
+}
+.mainContent.active{
+    background: #555;
+}
+body{
+    background: #333;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body.active{
+    background: black;
+}
+@media (max-width: 940px){
+    *{
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #333;
+    }
+    .mainContent{
+        width: 80%;
+        height: 100dvh;
+        margin: auto;
+        background: #fff;
+        padding: 1rem;
+        border: 1px solid #444;
+        border-radius: 10px;
+        font-size: 0.8rem;
+        display: grid;
+        grid-template-rows: 30% 70%;
+        text-align: center;
+        gap: 2.8rem;
+    }
+    .profileImg{
+        max-width: 10rem;
+        border-radius: 50%;
+        margin: 5px auto;
+    }
+    .downPart{
+        display: grid;
+        row-gap: 1rem; 
+        font-size: 1rem;
+        height: fit-content;
+        padding: 1rem;
+        margin-top: 10px;
+    }
+    .contact{
+        color: #555;
+        text-decoration: none;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+    .link{
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        background: #333;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    .link:hover{
+        color: rgba(84, 84, 228, 0.479);
+    }
+}@media (min-width: 941px){
+    *{
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+        background: #333;
+    }
+    .downPart{
+        display: grid;
+        row-gap: 1rem; 
+        font-size: 1rem;
+        height: fit-content;
+        padding: 1rem;
+        margin-top: 10px;
+    }
+    .contact{
+        color: #555;
+        text-decoration: none;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+    .link{
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        background: #333;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    .link:hover{
+        color: rgba(84, 84, 228, 0.479);
+    }
+    .mainContent{
+        width: 80%;
+        height: 100dvh;
+        margin: auto;
+        background: #fff;
+        padding: 1rem;
+        border: 1px solid #444;
+        border-radius: 10px;
+        font-size: 0.8rem;
+        display: grid;
+        grid-template-rows: 30% 70%;
+        text-align: center;
+        gap: 2.8rem;
+    }
+    .profileImg{
+        max-width: 10rem;
+        border-radius: 50%;
+        margin: 5px auto;
+    }
+    
+}
+@media (min-width: 1000px){
+    *{
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background: #333;
+    }
+    .mainContent{
+        width: 60%;
+        height: 100dvh;
+        margin: auto;
+        background: #fff;
+        padding: 1rem;
+        border: 1px solid #444;
+        border-radius: 10px;
+        font-size: 0.8rem;
+        display: grid;
+        grid-template-rows: 30% 70%;
+        text-align: center;
+        gap: 2.8rem;
+    }
+    .profileImg{
+        max-width: 10rem;
+        border-radius: 50%;
+        margin: 5px auto;
+    }
+    .downPart{
+        display: grid;
+        row-gap: 1rem; 
+        font-size: 1rem;
+        height: fit-content;
+        padding: 1rem;
+        margin-top: 10px;
+    }
+    .contact{
+        color: #555;
+        text-decoration: none;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+    .link{
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        background: #333;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    .link:hover{
+        color: rgba(84, 84, 228, 0.479);
+    }
+}
